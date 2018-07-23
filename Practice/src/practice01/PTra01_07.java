@@ -9,7 +9,7 @@ package practice01;
 public class PTra01_07 {
 	public static void main(String[] args) {
 
-		// 基本型8種類の変数を宣言します
+
 		boolean bo;
 		byte by;
 		short s;
@@ -19,26 +19,26 @@ public class PTra01_07 {
 		float f;
 		double d;
 
-		// ★ それぞれの型変数に、値を代入してください
-		// ※ 値は、好きな数字を入力してください
 
 
-
-
-
-
-
-
+		bo = false;
+        by = 3;
+        s  = 2;
+        c  = '4';
+        i  = 16;
+        l  = 32;
+        f  = 3.2f;
+        d  = 2.2;
 
 		// ★ それぞれの変数の中身を出力してください
-
-
-
-
-
-
-
-
+        System.out.println(bo);
+        System.out.println(by);
+        System.out.println(s);
+        System.out.println(c);
+        System.out.println(i);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
 
 	}
 }

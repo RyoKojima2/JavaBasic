@@ -10,13 +10,12 @@ public class PTra02_06 {
 	public static void main(String[] args) {
 		int x = 10;
 		int y = 50;
-
-		System.out.println("x:" + x);
-		System.out.println("y:" + y);
-
+        int i = 10;
+		
 		// ★ 変数 x, y の値をリテラルの数字を使わずに入れ替えてください
 		// ※プログラムは何行書いても良いです
-
+		System.out.println(x=y);
+        System.out.println(y=i);
 
 		// ここから下は修正しないでください
 		System.out.println("x:" + x);	// 「x:50」が出力される
