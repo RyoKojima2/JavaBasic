@@ -36,5 +36,9 @@ public class PTra03_08 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		if(money-num){
+			  System.out.println("850円です");
+		 }
+
 	}
 }
