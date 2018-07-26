@@ -35,10 +35,35 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		int orange = money-150;
+		int apple = money-160;
+		int coffee = money-200;
 
-		if(money-num){
-			  System.out.println("850円です");
+
+		System.out.println("1-3を選択してください");
+
+		if( num==1){
+			  System.out.println("*　1.オレンジジュース	：150円");
+			  System.out.print("残金は");
+			  System.out.print((int)orange);
+			  System.out.print("円です");
 		 }
+
+		 else if( num==2){
+			  System.out.println("*　2.リンゴジュース		：160円");
+			  System.out.print("残金は");
+			  System.out.print((int)apple);
+			  System.out.print("円です");
+		 }
+
+		 else if( num==3){
+			  System.out.println("*　3.コーヒー			：200円");
+			  System.out.print("残金は");
+			  System.out.print((int)coffee);
+			  System.out.print("円です");
+		 }
+
+
 
 	}
 }

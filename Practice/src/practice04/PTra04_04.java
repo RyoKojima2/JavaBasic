@@ -13,17 +13,18 @@ public class PTra04_04 {
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
 
 		// ★ int型の変数mapを宣言して、100で初期化してください
-
+           int map = 100;
 
 		// ★ int型の変数progressを宣言して、0で初期化してください
-
+           int progress = 0;
 
 		System.out.println("このスゴロクは、" + map + "マスです。");
 		System.out.println("=========< START >==========");
 
 		// ★ 変数progressが変数mapの数より少ない限り繰り返しを行う条件式を記述してください
-		while () {
-
+		while (progress>map) {
+        break;
+		}
 			System.out.println("サイコロを振ります。Enterを押してください");
 
 			// プレイヤーがEnterを押すのを待つ
