@@ -17,7 +17,7 @@ public class PTra04_05 {
 		System.out.print("じゃんけんゲームを開始します。");
 
 		// 変数winFlgがtrueだった場合にループが終わります
-		while (!winFlg /* winFlg == falseと同じ意味 */) {
+		while (!winFlg /* winFlg == falseと同じ意味 */)  {
 
 			System.out.println("あなたの手は？");
 			System.out.println("0:グー、1：チョキ、2：パー");
@@ -47,20 +47,23 @@ public class PTra04_05 {
 			if (cpuHand == 0) {
 				System.out.println("グー！");
 
-
-
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
 
-
-
 			} else {
 				System.out.println("パー！！");
-
-
-
 			}
 
+
+              while ( myHand == cpuHand) {
+
+             if(winFlg)
+              break;
+            }
+
+
 		}
+		 System.out.println("あなたの勝ちです");
+
 	}
 }

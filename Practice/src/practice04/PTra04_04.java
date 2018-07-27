@@ -16,14 +16,15 @@ public class PTra04_04 {
            int map = 100;
 
 		// ★ int型の変数progressを宣言して、0で初期化してください
-           int progress = 0;
+           int progress = 0;{
 
 		System.out.println("このスゴロクは、" + map + "マスです。");
 		System.out.println("=========< START >==========");
-
+	}
 		// ★ 変数progressが変数mapの数より少ない限り繰り返しを行う条件式を記述してください
-		while (progress>map) {
-        break;
+		while (progress!=map) {
+        if(progress<map)
+			break;
 		}
 			System.out.println("サイコロを振ります。Enterを押してください");
 
@@ -33,13 +34,14 @@ public class PTra04_04 {
 			// サイコロを振ります。0～6未満の数がランダムで変数diceに代入されます
 			int dice = new java.util.Random().nextInt(6);
 			// 0～5にしかならないのでサイコロっぽくするには、+1を行います
-			dice = dice + 1;
+			dice = dice + 1;{
 
 			// ★ サイコロを振って出た目を、変数progressに加算してください
-
-
+            System.out.println(progress+dice);
+	}
+            int i = map-(progress+dice); {
 			// ★ 「残り##マス」と出力してください（##には、残りマスの数を入れてください）
-
+            System.out.println("残り"+i+"マス");
 		}
 
 		System.out.println("=========< GOAL >==========");
