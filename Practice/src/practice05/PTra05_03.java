@@ -27,7 +27,7 @@ public class PTra05_03 {
 		// ★ 変数indexが5未満である間繰り返す条件式を記述してください
 		while (5>index) {
 
-			System.out.println((index + 1) + "人目");
+			System.out.println((index++) + "人目");
 			System.out.println("山、川、海でどこに行きたいか入力してください。");
 
 			// コマンドプロンプトで入力した文字列が変数lineに代入されます
@@ -46,24 +46,30 @@ public class PTra05_03 {
 
 			switch(line) {
 
-	case "山":
+	case "山":{
 		    mountain++;
 		break;
 			}
-	case 2:
-		    System.out.println("川"+index+river+"人");
+	case "川":{
+		    river++;
 		break;
 			}
-	case 3:
-	        System.out.println("海"index+ocean+"人");
+	case "海":{
+	       ocean++;
 	    break;
-		}default:System.out.println("「無効票です」")
-
+		}
+	default:{
+		System.out.println("無効票です");
+			}
 	// ★ 変数indexに1を足して、変数indexに代入してください
+     index = index++;
 
-
-}
-
+     System.out.println("山"+line+mountain+"人");
+     System.out.println("川"+line+river+"人");
+     System.out.println("海"+ocean+"人");
+     }
 // ★ 変数mountain、river、oceanの票数をそれぞれ出力してください
+		}
 
-}}
+	}
+}

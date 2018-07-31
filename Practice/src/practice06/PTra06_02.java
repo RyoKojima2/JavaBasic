@@ -17,6 +17,20 @@ public class PTra06_02 {
 
 			// ★ 奇数回のときには、「奇数」を出力してください
 
+		for (int i = 0;i<=20 ; i++) {
+
+		System.out.println("");
+
+		System.out.println("今は"+i+"回目の処理です。");
+
+
+		if(i%2 != 0) {
+
+			System.out.println(i+"は奇数です");
+
+
+		}
+	}
 
 
 		//-----for end

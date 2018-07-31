@@ -22,6 +22,12 @@ public class PTra05_04 {
 		 *
 		 */
 
+		boolean loop = false;
+
+
+
+		while (!loop) {
+
 		// ①
 		System.out.println("0～6の整数を入力してください");
 
@@ -30,9 +36,41 @@ public class PTra05_04 {
 		switch(line) {
 			case "0":
 				System.out.println("日曜");
+				loop = true;
 				break;
 			case "1":
 				System.out.println("月曜");
+				loop = true;
+			    break;
+			case "2":
+				System.out.println("火曜");
+				loop = true;
+				break;
+			case "3":
+				System.out.println("水曜");
+				loop = true;
+				break;
+			case "4":
+				System.out.println("木曜");
+				loop = true;
+				break;
+			case "5":
+				System.out.println("金曜");
+				loop = true;
+				break;
+			case "6":
+				System.out.println("土曜");
+				loop = true;
+				break;
+
+
+
+			default:{
+
+
+			}
 		}
 	}
 }
+}
+
