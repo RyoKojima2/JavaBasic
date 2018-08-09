@@ -9,14 +9,14 @@ package practice08;
 public class PTra08_02 {
 	public static void main(String[] args) {
 
-		int x = 100;
-		int y = 50;
+		int x2 = 100;
+		int y2 = 50;
 
 		// ★ 変数receiveを宣言して、averageメソッドを（変数x, 変数y）で呼び出した結果を代入してください
 
-
+		String  receive =  average(x2,y2);
 		// ★ 変数receiveを出力してください
-
+       System.out.println( receive);
 	}
 
 	/*
