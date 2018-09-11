@@ -16,10 +16,10 @@ public class PTra10_03 {
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
-
-
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
+		User us;
 
+		us = new User();
 
 		System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
@@ -37,6 +37,33 @@ public class PTra10_03 {
 
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
+
+
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+		String line = scanner.nextLine();
+
+		String[] a = line.split(",");
+
+		int i = Integer.parseInt(a[0]);
+
+
+		us.userid = i;
+		us.userNm = a[1];
+		us.mail   = a[2];
+		us.password = a[3];
+
+
+
+
+			System.out.println(us.userid);
+
+			System.out.println(us.userNm);
+
+			System.out.println(us.mail);
+
+			System.out.println(us.password);
+
 
 	}
 }

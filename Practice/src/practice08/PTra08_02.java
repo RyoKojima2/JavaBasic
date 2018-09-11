@@ -9,12 +9,12 @@ package practice08;
 public class PTra08_02 {
 	public static void main(String[] args) {
 
-		int x2 = 100;
-		int y2 = 50;
+		int xx = 100;
+		int yy = 50;
 
 		// ★ 変数receiveを宣言して、averageメソッドを（変数x, 変数y）で呼び出した結果を代入してください
 
-		String  receive =  average(x2,y2);
+		String  receive =  average(xx,yy);
 		// ★ 変数receiveを出力してください
        System.out.println( receive);
 	}
@@ -30,8 +30,10 @@ public class PTra08_02 {
 	 */
 	public static String average(int x, int y) {
 
-		String result = "平均は：" + ((x + y) / 2);
-		return result;
+
+		String risult =  "平均は：" + ((x + y) / 2);
+
+		return risult;
 
 	}
 }

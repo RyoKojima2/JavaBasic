@@ -75,7 +75,7 @@ public class PTra08_05 {
 
 	public static double triangle(double width, double height) {
 
-		 double  result =  (width * height / 2);
+		 double  result =  ((width * height) / 2);
 		return result;
 	}
 }

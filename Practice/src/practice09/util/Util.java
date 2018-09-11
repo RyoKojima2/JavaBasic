@@ -21,6 +21,8 @@ import java.util.List;
 public class Util {
 	private Util() {
 		/* インスタンス化を禁止するため、private化 */
+		
+		
 	}
 
 	/**

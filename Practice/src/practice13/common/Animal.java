@@ -6,15 +6,19 @@
  */
 package practice13.common;
 
+
 /**
  * 動物の情報や行動を持ったクラスです
  * @author rhizome
  *
  */
-public class Animal {
+public class  Animal {
 	/** 名前 */
 	private String name;
 
+	
+	
+	
 	/**
 	 * 行動：走る
 	 */

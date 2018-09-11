@@ -35,7 +35,7 @@ public class PTra08_03 {
 
 	public static boolean isEvenNumber(int x) {
 
-		 boolean result =  (x % 2 == 0);
-		return result;
+		 boolean res =  (x % 2 == 0);
+		return res;
 	}
 }

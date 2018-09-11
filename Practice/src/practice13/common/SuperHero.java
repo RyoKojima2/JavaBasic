@@ -1,22 +1,29 @@
-/*
- * PTra13_06.java
- *   作成	LIKEIT	2017
- *------------------------------------------------------------
- * Copyright(c) Rhizome Inc. All Rights Reserved.
- */
-package practice13.ptra13;
+package practice13.common;
 
-public class PTra13_06 extends  practice13.common.SuperHero{
+public class SuperHero extends practice13.common.Hero  {
+
+	 private practice13.common.Item equipment;
+
+
+
+	 public int attack(){
+			return super.attack() + equipment.getAdditionalDamage();
+		}
+
+
+
+
+	 public practice13.common.Item getEquipment() {
+			return equipment;
+		}
+
+		public void setEquipment(practice13.common.Item equipment) {
+			this.equipment = equipment;
+		}
 
 
 
 }
-
-     //common.SuperHeroクラス作ったので終了。
-
-
-
-
 /*
  * ★ common.Heroクラスを継承した、common.SuperHeroクラスを作成してください
  * 	●HP, POWER, ENDURANCEはそれぞれ、（25, 10, 7）

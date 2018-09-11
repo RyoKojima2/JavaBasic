@@ -8,6 +8,11 @@ package practice13.ptra13;
 
 public class PTra13_08 {
 
+
+
+
+	//common.Employeeクラスを作ったので終了。
+
 	/*
 	 * ★ common.Personクラスを継承して、common.Employeeクラスを作成してください
 	 *
