@@ -22,8 +22,7 @@ public class PTra10_06 {
 
 		Car[] cars = new Car[3];
 
-
-
+		
 		Car car1 = new Car();
 
 		    car1.color = "Red";

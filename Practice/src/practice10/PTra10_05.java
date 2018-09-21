@@ -59,7 +59,6 @@ public class PTra10_05 {
 
 			if(run != -1) {
 
-
 				if(sum >= distance) {
 
 					System.out.println("目的地まで"+ n +"時間かかりました。" );
@@ -68,7 +67,6 @@ public class PTra10_05 {
 					break;
 				}
 			}
-
 			else {
 				System.out.println("目的地に到達できませんでした。");
 

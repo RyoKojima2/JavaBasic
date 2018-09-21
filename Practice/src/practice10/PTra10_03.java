@@ -17,9 +17,9 @@ public class PTra10_03 {
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
-		User us;
+		User us = new User();
 
-		us = new User();
+
 
 		System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
@@ -45,14 +45,13 @@ public class PTra10_03 {
 
 		String[] a = line.split(",");
 
-		int i = Integer.parseInt(a[0]);
+		int i = Integer.parseInt(a[0]);   //Integer.parseIntで文字列を数値型（String）→（int）にする。
 
 
 		us.userid = i;
 		us.userNm = a[1];
 		us.mail   = a[2];
 		us.password = a[3];
-
 
 
 

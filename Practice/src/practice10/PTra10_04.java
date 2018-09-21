@@ -45,14 +45,14 @@ public class PTra10_04 {
 			// ★ 配列にした値を、users[カウント]の各フィールドに代入してください
 			// ★ ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
 
-			User user1 = new User();
+			User user = new User();
 
-			user1.userid = Integer.parseInt(a[0]);
-			user1.userNm =a[1];
-			user1.mail   =a[2];
-			user1.password=a[3];
+			user.userid = Integer.parseInt(a[0]);
+			user.userNm =a[1];
+			user.mail   =a[2];
+			user.password=a[3];
 
-			users[i] = user1;
+			users[i] = user;
 		}
 
 		for ( int i = 0; i < users.length; ++i ) {
@@ -62,13 +62,13 @@ public class PTra10_04 {
 			System.out.println(users[i].password);
 		}
 
-       
+
 
 
 
 		//----------- ループ end
 
 		// ★ usersに格納されている全てのインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-		
+
 	}
 }
